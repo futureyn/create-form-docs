@@ -4,22 +4,22 @@ layout: home
 
 hero:
   name: "create-form"
-  text: "create-form"
-  tagline: My great project tagline
+  text: "原生小程序+vant-weapp二次封装的form表单"
+  tagline: 让开发省心的Form组件
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: 表单
+      link: /quick-start
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 列表
+      link: /list
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 个人博客
+    details: http://blog.zlxinyu.cn/
+  - title: 个人项目
+    details: 微信小程序《成长时光轴》
+#  - title: github
+#    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 
