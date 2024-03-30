@@ -17,7 +17,7 @@ hero:
       text: 表格
       link: /table
   image:
-    src: assets/logo.jpg
+    src: /assets/logo.jpg
     alt: Giraffe
 
 features:
