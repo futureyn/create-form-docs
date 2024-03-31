@@ -6,7 +6,7 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
+      { text: 'Home', link: '/quick-start', items: [ { text: 'Markdown Examples', link: '/markdown-examples' }] },
       { text: 'Examples', link: '/markdown-examples' }
     ],
     sidebar: [
@@ -19,14 +19,13 @@ export default defineConfig({
       },
       {
         text: 'quick-start',
-        link: '/quick-start',
+        link: '/create-form-docs/quick-start',
         items: [
           { text: 'Markdown Examples', link: '/markdown-examples' },
           { text: 'Runtime API Examples', link: '/api-examples' }
         ]
       }
     ],
-
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ]

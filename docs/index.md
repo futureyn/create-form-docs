@@ -8,16 +8,10 @@ hero:
   tagline: 基于原生小程序+VantWeapp封装的组件库
   actions:
     - theme: brand
-      text: 表单
+      text: 快速开始
       link: /quick-start
-    - theme: brand
-      text: 列表
-      link: /list
-    - theme: brand
-      text: 表格
-      link: /table
   image:
-    src: /assets/logo.jpg
+    src: /logo.jpg
     alt: Giraffe
 
 features:
@@ -28,7 +22,6 @@ features:
 #  - title: github
 #    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
-
 
 <style>
 :root {
