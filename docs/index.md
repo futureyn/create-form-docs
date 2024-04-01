@@ -16,9 +16,9 @@ hero:
 
 features:
   - title: 个人博客
-    details: http://blog.zlxinyu.cn/
-  - title: 个人项目
-    details: 微信小程序《成长时光轴》
+    details: http://blog.A
+  - title: 项目
+    details: 2024-03-31
 #  - title: github
 #    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
