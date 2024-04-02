@@ -273,7 +273,8 @@ Page({
 ## FormInstance
 | 字段名            | 描述     | 类型                | 例                             |
 |----------------|:-------|-------------------|-------------------------------|
-| setFieldsValue | 为字段设置值 | `(data) => void` | `setFieldsValue({name:'章三'})` | 
+| setFieldsValue | 为字段设置值 | `Function` | `setFieldsValue({name:'章三'})` | 
+| setFieldDisabled | 设置禁用 | `Function` | `setFieldDisabled(["name", true])` | 
 ## 校验规则
 | 值 | 描述                                 | 
 |---|:-----------------------------------| 
