@@ -275,6 +275,7 @@ Page({
 |----------------|:-------|-------------------|-------------------------------|
 | setFieldsValue | 为字段设置值 | `Function` | `setFieldsValue({name:'章三'})` | 
 | setFieldDisabled | 设置禁用 | `Function` | `setFieldDisabled(["name", true])` | 
+| setComponentAfter | 插入组件 | `Function` | `setComponentAfter('name',dataSource Props)` | 
 ## 校验规则
 | 值 | 描述                                 | 
 |---|:-----------------------------------| 
