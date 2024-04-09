@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "Create-Form"
-  text: "让开发省心点儿"
+  text: "--"
   tagline: 基于原生小程序+VantWeapp封装的组件库
   actions:
     - theme: brand
