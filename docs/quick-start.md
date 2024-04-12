@@ -258,7 +258,6 @@ Page({
     }
 })
 ```
-
 ## FormProps
 
 | 字段名        | 描述       |  类型        | 默认值    | 例                                  |
@@ -269,6 +268,7 @@ Page({
 | btnText    | 按钮文字     |  `string`  | `提交`     | `--`                               |
 | confim     | 提交事件     |  `event`   | `--`     | `bind:confirm`                     |
 | id         | 组件实例     |`string`  | `--`     | `this.selectComponent('#id-name')` |
+| blurGroup         | 失去焦点     |`event`  | `--`     | `bind:blurEvent` |
 
 ## FormInstance
 | 字段名            | 描述     | 类型                | 例                             |

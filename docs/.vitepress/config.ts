@@ -3,7 +3,14 @@ export default {
     title:'Create-Form',
     description:'',
     themeConfig: {
+        nav: [
+            { text: '更新日志', link: '/log/updateLog' },
+          ],
         sidebar: [
+            {
+                text: '更新日志',
+                link: '/log/updateLog'
+            },
             {
                 text: 'Form 表单组件',
                 link: '/quick-start'

@@ -4,8 +4,8 @@ layout: home
 
 hero:
   name: "Create-Form"
-  text: "--"
-  tagline: 基于原生小程序+VantWeapp封装的组件库
+  text: 
+  tagline: 基于原生小程序+Vant Weapp封装的组件库
   actions:
     - theme: brand
       text: 快速开始
@@ -15,10 +15,10 @@ hero:
     alt: Giraffe
 
 features:
-  - title: 个人博客
-    details: http://blog.A
-  - title: 项目
-    details: 2024-03-31
+  - title: 减少开发成本
+    details: 传入JSON数据即可生成表单
+  - title: 其他
+    details: ''
 #  - title: github
 #    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
