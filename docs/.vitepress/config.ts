@@ -12,17 +12,13 @@ export default {
                 link: '/log/updateLog'
             },
             {
-                text: 'Form 表单组件',
+                text: 'Form',
                 link: '/quick-start'
             },
-            {
-                text: 'List 列表组件',
-                link: '/list'
-            },
-            {
-                text: 'Table 表格组件',
-                link: '/table'
-            }
+            // {
+            //     text: 'List',
+            //     link: '/list'
+            // }
         ],
         socialLinks: [
             { link: 'https://www.npmjs.com/package/xc-components-custom', icon:"npm" },

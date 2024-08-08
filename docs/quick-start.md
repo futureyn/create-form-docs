@@ -1,11 +1,11 @@
 ## 安装
 
 ```js{4}
-npm i xc-components-custom -D 
+npm i xc-components-custom -S
 // or
-yarn add xc-components-custom -D 
+yarn add xc-components-custom -S
 // or 
-pnpm add xc-components-custom -D 
+pnpm add xc-components-custom -S
 ```
 
 ## 构建
@@ -268,7 +268,7 @@ Page({
 | btnText    | 按钮文字     |  `string`  | `提交`     | `--`                               |
 | confim     | 提交事件     |  `event`   | `--`     | `bind:confirm`                     |
 | id         | 组件实例     |`string`  | `--`     | `this.selectComponent('#id-name')` |
-| blurGroup         | 失去焦点     |`event`  | `--`     | `bind:blurEvent` |
+| blurGroup         | 失去焦点     |`event`  | `--`     | `bind:blurGroup` |
 
 ## FormInstance
 | 字段名            | 描述     | 类型                | 例                             |
@@ -331,44 +331,7 @@ Page({
 | maxSize   | 大小限制 | `number`              | `2M` | 
 | maxCount  | 数量限制 | `number`              | `5张` | 
 | defaultValue  | 默认值  | `Array<{url: string}>` | `[]` | 
-
-[//]: # ()
-[//]: # (::: info)
-
-[//]: # (This is an info box.)
-
-[//]: # (:::)
-
-[//]: # ()
-[//]: # (::: tip)
-
-[//]: # (This is a tip.)
-
-[//]: # (:::)
-
-[//]: # ()
-[//]: # (::: warning)
-
-[//]: # (This is a warning.)
-
-[//]: # (:::)
-
-[//]: # ()
-[//]: # (::: danger)
-
-[//]: # (This is a dangerous warning.)
-
-[//]: # (:::)
-
-[//]: # ()
-[//]: # (::: details)
-
-[//]: # (This is a details block.)
-
-[//]: # (:::)
-
-[//]: # ()
-[//]: # (## More)
-
-[//]: # ()
-[//]: # (Check out the documentation for the [full list of markdown extensions]&#40;https://vitepress.dev/guide/markdown&#41;.)
+## dataSource Props - date
+| 字段名          | 描述   | 类型     | 可选值             |    默认值   |  
+|--------------|------|---------------|-------------------|----------| 
+| type         | 日期类型 | `string`     | `date` `datetime` | `"date"` | 

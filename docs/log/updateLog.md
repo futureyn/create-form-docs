@@ -1,5 +1,33 @@
 # CreateForm Blog
-## latest 1.2.2
+## latest 1.7.0
+> [!NOTE]
+> 【date】类型组件支持选择年月日时分
+
+```html
+<xc-form
+        dataSource="{{dataForm}}"
+></xc-form>
+```
+```js
+Page({
+    data: {
+        dataForm: [
+            {
+                ele: 'date',
+                placeholder: "请选择时间",
+                parameter: 'date',
+                required: true,
+                disabled: false,
+                label:'请选择时间',
+                titleWidth: 100,
+                defaultValue:"",
+                type: 'datetime', // 新增属性
+            }
+        ]
+    },
+})
+```
+## 1.2.2
 > [!NOTE]
 > 增加输入类型【input】失去焦点后验证，获取当前组件输入的值和当前的组件名称
 
